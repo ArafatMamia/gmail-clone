@@ -1,9 +1,11 @@
 import "./App.css";
-
+import Header from "./components/Header";
+import Sidebar from "./components/Sidebar";
 function App() {
   return (
     <>
-      <h1>Lets build Gmail</h1>
+      <Header/>
+      <Sidebar/>
     </>
   );
 }
